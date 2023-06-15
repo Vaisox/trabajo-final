@@ -130,13 +130,13 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #fff;
+  background: #9E69C5;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 70px;
   padding: 10px 0;
 }
 
@@ -158,8 +158,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 0px 0;
+  max-height: 60px;
 }
 
 .main-pages {
@@ -173,7 +173,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background-color: #6E2F93;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -263,18 +263,18 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #34C0DF;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
 }
 
