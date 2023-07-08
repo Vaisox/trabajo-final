@@ -355,7 +355,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(19, 39, 57, 0.8);
+  background: #6e2f938a;
   transition: 0.4s;
 }
 
@@ -422,7 +422,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #004289;
+  color: #6E2F93;
 }
 
 .mobile-nav-overly {
@@ -432,7 +432,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(19, 39, 57, 0.8);
+  background: #9f69c56b;
   overflow: hidden;
   display: none;
 }
@@ -722,6 +722,7 @@ h6 {
 
 #portfolio {
   padding: 60px 0;
+  background-color: #E71964;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -739,17 +740,17 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #ffffff;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: #9E69C5;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #6E2F93;
   color: #fff;
 }
 
@@ -835,7 +836,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #6E2F93;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -849,7 +850,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #3395ff;
+  background: #E71964;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -858,7 +859,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
+  background: #9E69C5;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -1014,7 +1015,7 @@ h6 {
 --------------------------------*/
 
 #clients {
-  padding: 60px 0;
+  padding: 30px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -1025,7 +1026,7 @@ h6 {
 }
 
 #clients .client-logo {
-  padding: 64px;
+  padding: 40px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1042,13 +1043,14 @@ h6 {
   border-bottom: 1px solid #d6eaff;
   overflow: hidden;
   background: #fff;
-  height: 160px;
+  height: 1060px;
+  width: 1060px;
 }
 
-#clients .client-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
+/*#clients .client-logo:hover img {
+  -webkit-transform: scale(2.2);
+  transform: scale(2.2);
+}*/
 
 #clients img {
   transition: all 0.4s ease-in-out;
@@ -1189,14 +1191,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #9E69C5;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #6E2F93;
   padding: 60px 0 30px 0;
 }
 
@@ -1227,7 +1229,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
